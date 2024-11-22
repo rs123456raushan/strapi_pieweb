@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contents",
+  "info": {
+    "singularName": "content",
+    "pluralName": "contents",
+    "displayName": "Content",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "experience": {
+      "type": "integer",
+      "default": 11
+    },
+    "work": {
+      "type": "text",
+      "default": "We started designing website in 2009 and since then i have developed more than 900 websites and APPs. Some of my best works are mentioned below."
+    },
+    "price": {
+      "type": "biginteger",
+      "default": "999"
+    },
+    "contracts": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "contract_text": {
+      "type": "text",
+      "default": "We started designing website in 2009 and since then i have developed more than 900 websites and APPs. Some of my best works are mentioned below."
+    },
+    "project_text": {
+      "type": "text",
+      "default": "I am a full time freelancer working for 10 years, i can build you what you want in QUALITY My quotes would be great and the support + Quality would be AWESOME. Write me now for any questions."
+    },
+    "projects": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "technologies": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "reviews": {
+      "type": "json"
+    },
+    "services": {
+      "type": "text"
+    },
+    "work_experience": {
+      "type": "json"
+    }
+  }
+}
